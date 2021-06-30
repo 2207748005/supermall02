@@ -1019,6 +1019,7 @@ export default {
               probeType:3,
               pullUpLoad:true
         })
+        console.log(this.scroll)
         //监听滚动事件
         // this.scroll.on('scroll',(position)=>{
         //     console.log(position);
@@ -1036,4 +1037,5 @@ export default {
        background-color: red;
        overflow-y: scroll;
    }
+  
 </style>
