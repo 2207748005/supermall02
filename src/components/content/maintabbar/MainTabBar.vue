@@ -1,6 +1,5 @@
 <template>
-
-        <TabBar>
+       <TabBar>
            <!-- activeColor="" -->
         <TabBarItem path="/Home" >
            <img slot="item-icon" src="~assets/img/tabbar/home.svg" alt="">
@@ -22,7 +21,6 @@
           <img slot="item-icon-active" src="~assets/img/tabbar/profile_active.svg" alt="">
            <div slot="item-txt">我的</div>
         </TabBarItem>
-        
       </TabBar>
 
 </template>

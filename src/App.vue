@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- 防止销毁 -->
+    <keep-alive>
+       <router-view/>
+    </keep-alive>
     <maintabbar/>
   </div>
 </template>
@@ -14,7 +17,7 @@ export default {
     maintabbar
   }
 }
-</script>
+</script> 
 
 <style>
 @import "./assets/css/base.css";
