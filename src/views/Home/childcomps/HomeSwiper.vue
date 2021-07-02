@@ -32,6 +32,7 @@ export default {
     },
     methods:{
         //监听图片加载事件
+        //设置只让他监听一次就可以了，减小服务器压力
         imageload(){
             if(!this.isLoad){
             this.$emit('swiperImageLoad')

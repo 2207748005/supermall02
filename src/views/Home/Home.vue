@@ -144,7 +144,7 @@ export default {
         //    console.log("到底了");
         // 改变页码让他显示更多
           this.getHomeGoods(this.currentType)
-          //刷新图片高度，操你妈
+          //刷新图片高度，操你妈,解决了滚动不了得问题
           this.$refs.scroll.scroll.refresh();
         }, 
         swiperImageLoad(){
